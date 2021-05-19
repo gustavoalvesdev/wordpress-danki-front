@@ -1,1 +1,1 @@
-#tema-estatico-wp
+# Tema Estático WP
