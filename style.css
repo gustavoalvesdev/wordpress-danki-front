@@ -249,6 +249,45 @@ li.slick-active button {
     font-size: 15px;
 }
 
+.depoimentos {
+    padding: 100px 0;
+    background-color: #2318bf;
+}
+
+.depoimentos h2 {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.depoimentos-box {
+    margin: 10px auto;
+    max-width: 800px;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+.depoimento-single {
+    width: 100%;
+    display: inline-block;  
+}
+
+.depoimento-single p {
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.depoimento-single img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
 @media screen and (max-width: 768px) {
     .w50 {
         width: 100%;

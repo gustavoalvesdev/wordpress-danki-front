@@ -137,6 +137,41 @@
     </section>
     <!-- sobre-time -->
 
+    <section class="depoimentos">
+        <div class="center">
+            <h2>Depoimentos</h2>
+            <div class="depoimentos-box">
+                <div class="depoimento-single">
+                    <p>
+                        "O envolvimento e a imersão da equipe nos negócios de seus clientes permite que sejam dados feedbacks muito coerentes e com uma visão de fora, visão muitas vezes necessária. Essa visão corroborou com a vontade da empresa em focar no seu segmento de atuação."   
+                    </p>
+                    <p>Guilherme Grillo</p>
+                    <img src="images/oval-2.png" alt="autor">
+                </div>
+                <!-- depoimento-single -->
+                 <div class="depoimento-single">
+                    <p>
+                        "O envolvimento e a imersão da equipe nos negócios de seus clientes permite que sejam dados feedbacks muito coerentes e com uma visão de fora, visão muitas vezes necessária. Essa visão corroborou com a vontade da empresa em focar no seu segmento de atuação."   
+                    </p>
+                    <p>Guilherme Grillo</p>
+                    <img src="images/oval-2.png" alt="autor">
+                </div>
+                <!-- depoimento-single -->
+                 <div class="depoimento-single">
+                    <p>
+                        "O envolvimento e a imersão da equipe nos negócios de seus clientes permite que sejam dados feedbacks muito coerentes e com uma visão de fora, visão muitas vezes necessária. Essa visão corroborou com a vontade da empresa em focar no seu segmento de atuação."   
+                    </p>
+                    <p>Guilherme Grillo</p>
+                    <img src="images/oval-2.png" alt="autor">
+                </div>
+                <!-- depoimento-single -->
+            </div>
+            <!-- depoimentos-box -->
+        </div>
+        <!-- center --->
+    </section>
+    <!-- depoimentos -->
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script>
@@ -157,6 +192,18 @@
                     }
                 }
             ]
+        });
+
+        $('.depoimentos .depoimentos-box').slick({
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 1000,
+            slidesToShow: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            centerMode: false
+
         });
     </script>
     <script>
