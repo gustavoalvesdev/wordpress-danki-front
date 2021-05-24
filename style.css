@@ -251,7 +251,7 @@ li.slick-active button {
 
 .depoimentos {
     padding: 100px 0;
-    background-color: #2318bf;
+    background-color: #23188f;
 }
 
 .depoimentos h2 {
@@ -288,6 +288,76 @@ li.slick-active button {
     border-radius: 50%;
 }
 
+.metodologia {
+    position: absolute;
+    z-index: 10;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: white;
+    border-top: 3px solid #ffca00;
+    box-shadow: 10px 20px 60px 0 rgba(0, 0, 0, 0.06);
+    text-align: center;
+}
+
+.metodologia h2 {
+    color: #232931;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.metodologia p {
+    font-size: 14px;
+    color: #b4b4b4;
+    margin: 15px 0;
+}
+
+.metodologia a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    background-color: #23188f;
+    border-radius: 5px;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+footer {
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background: white;
+}
+
+footer > .center {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-footer {
+    width: 20%;
+}
+
+.col-footer h2 {
+    text-transform: uppercase;
+    color: #232931;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.col-footer a {
+    display: block;
+    font-size: 13px;
+    text-decoration: none;
+    color: #b4b4b4;
+    margin-top: 13px;
+}
+
 @media screen and (max-width: 768px) {
     .w50 {
         width: 100%;
@@ -312,5 +382,14 @@ li.slick-active button {
     .img-time {
         margin-top: 30px;
         max-width: 90%;
+    }
+
+    .col-footer {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .col-footer p:last-child {
+        margin-bottom: 30px;
     }
 }
