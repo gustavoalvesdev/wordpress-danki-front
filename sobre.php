@@ -59,6 +59,66 @@
     </section>
     <!-- sobre-equipe -->
 
+    <section class="sobre-imagens">
+        <div class="center">
+            <div class="img-sobre">
+                <img src="images/foto-1.png">
+            </div>
+            <!-- img-sobre -->
+            <div class="img-sobre">
+                <img src="images/foto-2.png">
+            </div>
+            <!-- img-sobre -->
+            <div class="img-sobre">
+                <img src="images/foto-3.png">
+            </div>
+            <!-- img-sobre -->
+            <div class="img-sobre">
+                <img src="images/foto-4.png">
+            </div>
+            <!-- img-sobre -->
+        </div>
+        <!--center -->
+    </section>
+    <!-- sobre-imagens -->
+
+    <footer>
+        <section class="metodologia">
+        <div class="center">
+            <h2>Conheça nossa Metodologia</h2>
+            <p>O que acha de fazermos o que mais gostamos? Conversar!<br>Entre em contato por e-mail ou telefone.</p>
+            <a href="/contato">Entrar em Contato</a>
+        </div>
+        <!-- center -->
+        </section>
+        <!-- metodologia -->
+        <div class="center">
+            <div class="col-footer">
+                <h2>SUPORTE</h2>
+                <p><a href="">Blog</a></p>
+                <p><a href="">FAQ's</a></p>
+            </div>
+            <!-- col-footer -->
+            <div class="col-footer">
+                <h2>CONSULTORIA</h2>
+                <p><a href="">Metodologia</a></p>
+                <p><a href="">Cases</a></p>
+            </div>
+            <!-- col-footer -->
+            <div class="col-footer">
+                <h2>EMPRESA</h2>
+                <p><a href="">Sobre</a></p>
+                <p><a href="">Política de Privacidade</a></p>
+            </div>
+            <!-- col-footer -->
+            <div style="width: 40%; text-align: right" class="col-footer">
+                <img src="images/logo-footer.png" />
+            </div>
+            <!-- col-footer --> 
+        </div>
+        <!-- center -->
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script>
         // menu responsivo
