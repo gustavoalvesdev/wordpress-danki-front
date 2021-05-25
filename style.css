@@ -358,6 +358,30 @@ footer > .center {
     margin-top: 13px;
 }
 
+/* PÁGINA SOBRE */
+.sobre-equipe {
+    padding: 40px 0;
+}
+
+.sobre-equipe img {
+    max-width: 100%;
+}
+
+.equipe-sobre-texto {
+    color: #202020;
+    padding: 0 20px;
+}
+
+.equipe-sobre-texto h2 {
+    font-size: 45px;
+    line-height: 67px;
+}
+
+.equipe-sobre-texto p {
+    font-size: 16px;
+    line-height: 24px;   
+}
+
 @media screen and (max-width: 768px) {
     .w50 {
         width: 100%;
@@ -391,5 +415,9 @@ footer > .center {
 
     .col-footer p:last-child {
         margin-bottom: 30px;
+    }
+
+    .sobre-equipe img {
+        margin-top: 20px;
     }
 }
